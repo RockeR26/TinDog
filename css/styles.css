@@ -177,7 +177,7 @@ p{
 
 /* mobile-section */
 
-@media(max-width:910px)
+@media(min-width:910px)
 {
     .iphone{
         transform: rotate(0);
