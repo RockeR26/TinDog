@@ -177,7 +177,7 @@ p{
 
 /* mobile-section */
 
-@media(max-width:992px)
+@media(max-width:1081px)
 {
     .iphone{
         transform: rotate(0);
@@ -193,13 +193,7 @@ p{
     .card{
         margin-bottom: 2rem;
     }
-    .card:hover {
-        position:relative;
-        bottom:-25px;
-        height:auto;
-        width: auto;
-        display:block;
-        z-index:999;
-    }
+ }  
 
-}
+
+
