@@ -177,7 +177,7 @@ p{
 
 /* mobile-section */
 
-@media(min-width:910px)
+@media(max-width:992px)
 {
     .iphone{
         transform: rotate(0);
@@ -189,15 +189,17 @@ p{
     }
     #title{
         text-align: center;
-
-        margin-left: 0;
     }
-  
-
- 
-
     .card{
         margin-bottom: 2rem;
+    }
+    .card:hover {
+        position:relative;
+        bottom:-25px;
+        height:auto;
+        width: auto;
+        display:block;
+        z-index:999;
     }
 
 }
