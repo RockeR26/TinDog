@@ -193,7 +193,7 @@ p{
     .card{
         margin-bottom: 2rem;
     }
-    .card:hover {
+    .last-card:hover {
         position:relative;
         top:25px;
         height:auto;
